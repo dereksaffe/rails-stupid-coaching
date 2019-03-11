@@ -1,0 +1,22 @@
+// Place all the styles related to the ask controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$yellow: #A7F3FF;
+
+body {
+  background: $yellow; // Using this variable
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+};
+
+
+.text-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin: 10% 0;
+  align-items: center;
+}
